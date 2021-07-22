@@ -1,0 +1,121 @@
+2008-08-06  Galen Wetterling  <wetterlg@wetterlg-laptop>
+
+	* Sato/matchbox/*.png:
+	
+	(Bugfix) Resized  image files.
+
+2008-08-06  Galen Wetterling  <wetterlg@wetterlg-laptop>
+
+	* Sato/matchbox/theme.xml:
+	* configure.ac:
+	
+	Cleanup: Removed theme.xml. configure.ac now creates it from theme-vga.xml
+	or theme-qvga.xml as appropriate.
+
+2008-08-06  Galen Wetterling  <wetterlg@wetterlg-laptop>
+
+	* Sato/matchbox/theme-qvga.xml
+	* Sato/matchbox/theme-vga.xml
+	* Sato/matchbox/theme.xml
+	* configure.ac
+	
+	Made a qvga-specific version of theme.xml, which is used in place 
+	of the original theme.xml when --with-mode=qvga is passed as a
+	configure option. The modified theme.xml file uses the qvga
+	images.
+	
+
+2008-08-06  Galen Wetterling  <wetterlg@o-hand.com>
+
+	* Sato/matchbox/Makefile.am:
+	* configure.ac:
+	* Sato/matchbox/arrow-down-active-qvga.png
+	* Sato/matchbox/arrow-down-qvga.png
+	* Sato/matchbox/close-button-active-qvga.png
+	* Sato/matchbox/close-button-qvga.png
+	* Sato/matchbox/dia-left-edge-qvga.png
+	* Sato/matchbox/dia-right-edge-qvga.png
+	* Sato/matchbox/dia-tile-qvga.png
+	* Sato/matchbox/titlebar-left-edge-qvga.png
+	* Sato/matchbox/titlebar-right-edge-qvga.png
+	* Sato/matchbox/titlebar-tile-qvga.png
+	
+	Added qvga-sized images and a configure flag to use them:
+	--with-mode=vga     (default, uses original images)
+	--with-mode=qvga    (uses new images)
+
+2008-03-13  Robert Bragg  <bob@o-hand.com>
+
+	* Sato/matchbox2/theme.xml:
+	Updated to use the new xml schema.
+	Renamed background.png -> template.png
+
+2007-01-08  Tomas Frydrych  <tf@o-hand.com>
+
+	* Sato/matchbox2/theme.xml:
+	Description of matchbox-desktop.
+	Further reduced size of title-bar font.
+
+2007-01-08  Tomas Frydrych  <tf@o-hand.com>
+
+	* Sato/matchbox2/theme.xml:
+	Added description of matchbox-panel.
+	Reduced size of title-bar font.
+
+2007-12-21  Tomas Frydrych  <tf@o-hand.com>
+
+	* configure.ac:
+	* Sato/Makefile.am:
+	* Sato/matchbox2:
+	Initial commit of MBWM2 sato theme.
+
+2007-07-31  Matthew Allum  <mallum@openedhand.com>
+
+	* COPYING:
+	Add CC3 license.
+
+2007-07-30  Matthew Allum  <mallum@openedhand.com>
+
+	* Sato/matchbox/Makefile.am:
+	Remove need for theme.desktop, not needed with newer panel/desktop
+	and breaking distcheck.
+
+2007-07-22  Ross Burton  <ross@openedhand.com>
+
+	* Sato/matchbox/theme.xml:
+	Implement the custom menu icon as a button, so it can be hidden
+	when the window doesn't support custom.
+
+2007-07-13  Matthew Allum  <mallum@openedhand.com>
+
+	* Sato/matchbox/Makefile.am:
+	* Sato/matchbox/theme.xml:
+	Add a down arrow for menus.
+
+2007-07-11  Matthew Allum  <mallum@openedhand.com>
+
+	* Sato/matchbox/Makefile.am:
+	* Sato/matchbox/theme.xml:
+	Fix window close button state.
+
+2006-12-23  Matthew Allum  <mallum@openedhand.com>
+
+	* Sato/matchbox/theme.xml:
+	Tweak titlebar text positioning / clipping.
+
+2006-12-22  Matthew Allum  <mallum@openedhand.com>
+
+	* Sato/matchbox/theme.xml:
+	Add panel in titlebar setup
+
+2006-12-22  Matthew Allum  <mallum@openedhand.com>
+
+	* Sato/matchbox/theme.desktop.in:
+	Remove old clearlooks config
+
+2006-12-20  Matthew Allum  <mallum@openedhand.com>
+
+	* Sato/matchbox/Makefile.am:
+	* Sato/matchbox/theme.xml:
+	Add rough dialog styalising
+
