@@ -6,9 +6,14 @@
  <decor type="north" show-title="yes"
         template-x="0" template-y="0"
         template-width="640" template-height="48"
-        color-bg="#ffffff"
-        color-fg="#c8addb"
+        color-bg="#66cc33"
+        color-fg="#e3e3e3"
         font-family="Sans bold" font-size="12">
+  <button type="close"
+          template-x="592" template-y="8"
+          template-active-x="608" template-active-y="48"
+          template-inactive-x="540" template-inactive-y="48"
+          width="32" height="32"/>
   <button type="menu"
           template-x="8"   template-y="16"
           template-active-x="576"    template-active-y="48"
@@ -20,7 +25,7 @@
 <client type="dialog" shaped="yes">
  <decor type="north" show-title="yes"
         font-family="Sans bold" font-size="12"
-        color-fg="#775587"
+        color-fg="#e3e3e3"
         template-x="0" template-y="48"
         template-width="535" template-height="48"/>
 </client>
@@ -29,8 +34,8 @@
  <decor type="north" show-title="yes"
         template-x="0" template-y="0"
         template-width="640" template-height="48"
-        color-bg="#ffffff"
-        color-fg="#c8addb"
+        color-bg="#66cc33"
+        color-fg="#e3e3e3"
         font-family="Sans bold" font-size="12">
  </decor>
 </client>
