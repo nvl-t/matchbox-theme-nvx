@@ -9,7 +9,7 @@
 <color id="base" def="#66cc33" />
 <color id="divider" def="#a1a1a1" />
 <color id="dia-border" def="#383838" />
-<color id="titlebar" def="#cc82d1" />
+<color id="titlebar" def="#f2f2f2" />
 
 <font id="titlefont" def="Sans bold 18px" />
 <font id="menufont" def="Sans bold 24px" />
