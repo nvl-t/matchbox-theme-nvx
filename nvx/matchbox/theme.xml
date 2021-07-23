@@ -5,7 +5,7 @@
 <color id="white" def="#ffffff" />
 <color id="black" def="#000000" />
 
-<color id="text" def="#2e3436" />
+<color id="text" def="#2b00ff" />
 <color id="base" def="#66cc33" />
 <color id="divider" def="#a1a1a1" />
 <color id="dia-border" def="#383838" />
